@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Country Information - Country searcher</title>
 </head>
 <body>
+<h1>Let's search some countries</h1>
+<img src="assets/Animated_world_map.gif" alt="animated map" width="300"/>
+<form id="search-form">
+    <label>
+        <input id="search-value" placeholder="For Example Netherlands or Peru"/>
+    </label>
+    <button type="submit">search</button>
+</form>
+<span id="error-message"></span>
+<div class="searchResult" id="search-result"></div>
 
 </body>
+<script type="module" src="app.js"></script>
 </html>
